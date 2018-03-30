@@ -20,8 +20,7 @@ Ojo que selen estar comprimidos con 7z y hay que descromprimirlos primero.
 Debido al tamaño de la Flash en Arduino UNO el array no puede superar los 30KB approx.
 
 El archivo en este ejemplo ocupa unos 9KB.
-
-=== Conexiones
+### Conexiones
 
 Conexion SN 76489:
 ```
@@ -34,14 +33,12 @@ VCC (16) ...... ARduino (+5V)
 GND ( 8) ...... Arduino (GND)
 ```
 
-## Contenido del directorio
+### Contenido del directorio
 ```
-....
  sn76489_vgm_player                => Carpeta del proyecto Arduino
   ├── sn76489_vgm_player.ino       => Fichero principal Arduino
   ├── sn76489.h/.cpp               => Funciones de control y escritura al IC sn76489
   ├── VGMPlayer.h/.cpp             => Funciones para reproducir el archivo de música
   ├── vgmdata.h                    => Volcado del archivo VGM en formato de array (vgm_song[])  
   └── Readme.md                    => Este archivo
-....
 ```
