@@ -21,7 +21,7 @@ Debido al tamaño de la Flash en Arduino UNO el array no puede superar los 30KB 
 
 El archivo en este ejemplo ocupa unos 9KB.
 
-## Conexiones
+=== Conexiones
 
 Conexion SN 76489:
 ```
