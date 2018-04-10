@@ -5,7 +5,7 @@ Reproduce la misma cancion en formato VGM almacenada en la Flash. La cancion vie
 
 El archivo *vgmdata.h* se ha obtenido con el siguiente comando de linux:
 
-`xxd song.vgm > vgmdata.h`
+`xxd -i song.vgm > vgmdata.h`
 
 donde: 
 
