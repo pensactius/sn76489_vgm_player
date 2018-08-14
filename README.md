@@ -24,7 +24,7 @@ El archivo en este ejemplo ocupa unos 9KB.
 
 Conexion SN 76489:
 ```
-clk (14) ...... Arduino D1
+clk (14) ...... Arduino D11
 ~WE ( 5) ...... Arduino D12
 Ready(4) ...... N.C
 ~CE ( 6) ...... Arduino (D10) (Conectar a GND si se necesita este PIN)
