@@ -28,7 +28,7 @@ clk (14) ...... Arduino D11
 ~WE ( 5) ...... Arduino D12
 Ready(4) ...... N.C
 ~CE ( 6) ...... Arduino (D10) (Conectar a GND si se necesita este PIN)
-D0 - D7  ...... Arduino D2 - D9
+D0 - D7  ...... Arduino D2 - D9 (Ojo, ¡D0 y NO D7, es el bit de mayor peso MSB!)
 VCC (16) ...... ARduino (+5V)
 GND ( 8) ...... Arduino (GND)
 ```
