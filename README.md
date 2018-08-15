@@ -27,7 +27,7 @@ Conexion SN 76489:
 clk (14) ...... Arduino D11
 ~WE ( 5) ...... Arduino D12
 Ready(4) ...... N.C
-~CE ( 6) ...... Arduino (D10) (Conectar a GND si se necesita este PIN)
+~OE ( 6) ...... Arduino (D10) (Conectar a GND si se necesita este PIN)
 D0 - D7  ...... Arduino D9 - D2 (D0 sn76489 <--> D9 Arduino, etc.)
 VCC (16) ...... ARduino (+5V)
 GND ( 8) ...... Arduino (GND)
